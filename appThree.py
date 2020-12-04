@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import cv2
+import cv
 import streamlit.components.v1 as components
 #https://github.com/madhav727/medium/blob/master/finger_counting_video.py
 @st.cache()
