@@ -4,4 +4,4 @@ streamlit==0.71.0
 libopencv==4.0.1
 opencv==4.0.1
 py-opencv==4.0.1
-
+conda==4.9.2
