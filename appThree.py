@@ -72,6 +72,6 @@ if st.button("Begin..."):
         if 0xFF == ord('q'):
             break
  
-    cv2.destroyAllWindows('img')
+    cv2.destroyAllWindows()
     cv2.waitKey(1) 
     cap.release()
