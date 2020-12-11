@@ -70,6 +70,6 @@ if st.button("Begin..."):
         except:
             pass
         if cv2.waitKey(1) & 0xFF == ord('q'):
-            stream.release()
+            cap.release()
             cv2.destroyAllWindows()
             break
