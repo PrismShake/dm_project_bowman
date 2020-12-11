@@ -69,7 +69,7 @@ if st.button("Begin..."):
             cv2.imshow("img", img)
         except:
             pass
-       if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('q'):
             stream.release()
             cv2.destroyAllWindows()
             break
